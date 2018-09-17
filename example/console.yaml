@@ -7,4 +7,4 @@ spec:
   restartPolicy: Always
   containers:
     - name: console
-      image: chrisgis333/k8s-redis-ha:console-3.0.1
+      image: chrisgis333/k8s-redis-ha:console-3.0.2

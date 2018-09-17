@@ -40,7 +40,7 @@ spec:
               mountPath: /opt
       initContainers:
         - name: redis-ha-server
-          image: chrisgis333/k8s-redis-ha:server-3.0.1
+          image: chrisgis333/k8s-redis-ha:server-3.0.2
           volumeMounts:
             - name: opt
               mountPath: /opt
